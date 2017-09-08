@@ -1,0 +1,3 @@
+include example.json
+include LICENSE
+include README.md
