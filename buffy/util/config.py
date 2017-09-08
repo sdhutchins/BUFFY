@@ -5,8 +5,8 @@ import re
 import os
 import sys
 from logging import debug, info
-from media.s3 import S3_HEAD
-from util.global_def import DIR_DELIM, warning, error
+from buffy.media.s3 import S3_HEAD
+from buffy.util.global_def import DIR_DELIM, warning, error
 
 
 def show_list(list_entry, name):

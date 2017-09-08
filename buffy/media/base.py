@@ -4,7 +4,7 @@
 import os
 import collections
 from logging import info
-from util.global_def import DIR_DELIM
+from buffy.util.global_def import DIR_DELIM
 
 
 def get_temp_dir():

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from media.disk import Disk
-from media.s3 import S3, S3_HEAD
+from buffy.media.disk import Disk
+from buffy.media.s3 import S3, S3_HEAD
 
 
 def create_media(media_path, setting, args):

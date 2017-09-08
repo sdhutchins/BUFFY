@@ -4,8 +4,8 @@
 import os
 from logging import info
 from subprocess import Popen, PIPE, STDOUT
-from media.base import MediaBase
-from util.global_def import warning, error, is_windows, DIR_DELIM
+from buffy.media.base import MediaBase
+from buffy.util.global_def import warning, error, is_windows, DIR_DELIM
 
 """
   following information is from 'aws s3 help'
